@@ -45,7 +45,7 @@ export default async function Home() {
           <div>
             <h3 className="mb-4 text-4xl leading-tight lg:text-6xl">
               <Link
-                href={`/posts/${firstPost.slug}`}
+                href={`/blog/${firstPost.slug}`}
                 className="hover:underline"
               >
                 {firstPost.title}
